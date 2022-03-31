@@ -1,11 +1,11 @@
-//═══════[© 2022 Xeon Bot Inc.]════════\\
+//༼༺⋋[© 2022 Zim Bot Inc.]⋌༻༽\\
 
 //~you can re-upload but tag my channel
 //or put my channel link in the description.
 //~you can recode or copy the codes but give
 //credit.
-//~Thank you to LORD BUDDHA, ME AND MY 
-//FAMILY.
+//+27634090203 
+//֎֎֎֎֎֎֎֎֎֎֎.
 
 //═══════[modules]════════\\
 
@@ -22,19 +22,19 @@ global.APIKeys = {
 }
 
 //═══════[modification]════════\\
-global.owner = ['916909137213','6283839980451'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
-global.pemilik = ['916909137213'] //another owner number
-global.premium = ['916909137213'] //premium number
-global.pengguna = 'Xeon' //username
-global.botnma = 'Cheems Bot-MD' //bot name
-global.ownernma = '🦄Dream Guy Xeon' //owner name
-global.packname = 'Cheems Bot' //sticker package name
-global.author = 'By Dream Guy Xeon' //sticker author name
+global.owner = ['27634090203','+447441437150'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
+global.pemilik = ['27634090203'] //another owner number
+global.premium = ['27634090203'] //premium number
+global.pengguna = 'Drips' //username
+global.botnma = 'ZIM BOT INC' //bot name
+global.ownernma = 'Drips' //owner name
+global.packname = 'Drips //sticker package name
+global.author = 'By Drips Memes' //sticker author name
 global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
-global.sp = '⭔' //design
+global.sp = '🔵' //design
 global.mess = {
-    success: 'Done ✓',
+    success: 'Takaenda Done!',
     admin: 'This Feature Is Only For Admin!',
     botAdmin: 'Bot Must Be Admin First!',
     owner: 'This Feature Is Only For Owner',
@@ -46,9 +46,9 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity", //premium user limit
-    free: 100 //free user limit
+    free: 100000 //free user limit
 }
-global.thumb = fs.readFileSync('./XeonMedia/cheemspic.jpg')
+global.thumb = fs.readFileSync('./Zimbot/drips.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
