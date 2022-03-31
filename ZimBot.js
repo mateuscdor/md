@@ -28,7 +28,7 @@ let { addLevelingId, addLevelingLevel, addLevelingXp, getLevelingId, getLeveling
 const speedofbot = require("performance-now")
 
 //[thumb]\\
-let xeon = fs.readFileSync('./XeonMedia/cheemspic.jpg')
+let xeon = fs.readFileSync('./Zimbot/drips.jpg')
 
 //[database]\\
 const antilink = JSON.parse(fs.readFileSync('./database/antilink.json'))
@@ -100,11 +100,11 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 	
 //[target]\\
 	const reply = (teks) => {
-            ZimBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join Zim Bot Support GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://chat.whatsapp.com/EFsb8RCXV4jLEFk4eAcA1A"}}}, { quoted: m})
+            ZimBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join Zim Bot Support GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./Zimbot/drips.jpg`),"sourceUrl": "https://chat.whatsapp.com/EFsb8RCXV4jLEFk4eAcA1A"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            ZimBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Subscribe DRIPS OFC YT Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://youtu.be/cZ3UrzArI5A"}}}, { quoted: m})
+            ZimBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Subscribe DRIPS OFC YT Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./Zimbot/drips.jpg`),"sourceUrl": "https://youtu.be/cZ3UrzArI5A"}}}, { quoted: m})
         }
 try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -1233,8 +1233,8 @@ case 'antilink':
                                     id: 'sc'
                                 }
                             }]
-                      fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
-                      let txt = `「 Cheems Bot Broadcast 」\n\n${text}`
+                      fatihgans = fs.readFileSync('./Zimbot/drips.jpg')
+                      let txt = `「 ZimBot Broadcast 」\n\n${text}`
                       ZimBotInc.send5ButImg(i, txt, ZimBotInc.user.name, fatihgans, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1242,7 +1242,7 @@ case 'antilink':
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} cheems bot here`
+                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} Zimbot here`
                 let anu = await store.chats.all().map(v => v.id)
                 reply(`Mengirim Broadcast Ke ${anu.length} Chat\nWaktu Selesai ${anu.length * 1.5} second`)
 		for (let yoi of anu) {
@@ -1258,7 +1258,7 @@ case 'antilink':
                                     id: 'owner'
                                 }
                             }]
-                      fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
+                      fatihgans = fs.readFileSync('./Zimbot/drips.jpg')
                       let txt = `「 ZIM BOT BROADCAST 」\n\n${text}`
                       ZimBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 		}
@@ -2382,7 +2382,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
                             hydratedFooterText: `ZIM BOT INC`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2426,7 +2426,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
                             hydratedFooterText: `𝗛𝗶 😌 ${pushname}
 How Are You? 😊
 
@@ -2611,7 +2611,7 @@ case 'grupmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
                             hydratedFooterText: `𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2653,7 +2653,7 @@ case 'downloadmenu': {
                         hydratedTemplate: {
                             hydratedContentText: okemenu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
                             hydratedFooterText: `𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2690,7 +2690,7 @@ case 'downloadmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
                             hydratedFooterText: `𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2721,7 +2721,7 @@ case 'randommenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
                             hydratedFooterText: `𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2753,7 +2753,7 @@ case 'funmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
                             hydratedFooterText: `𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2793,7 +2793,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
                             hydratedFooterText: `𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2827,12 +2827,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
+                            hydratedFooterText: `ZIM BOT INC`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/-qgrOvpZqH8'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2885,12 +2885,12 @@ case 'horoscopemenukcodk': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
+                            hydratedFooterText: `ZIM BOT INC`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/-qgrOvpZqH8'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2923,12 +2923,12 @@ case 'convertmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
+                            hydratedFooterText: `ZIM BOT INC`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/-qgrOvpZqH8'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2963,12 +2963,12 @@ case 'nocategorymenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
+                            hydratedFooterText: `ZIM BOT INC`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/-qgrOvpZqH8'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3000,12 +3000,12 @@ case 'databasemenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
+                            hydratedFooterText: `ZIM BOT INC`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/-qgrOvpZqH8'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3032,12 +3032,12 @@ case 'anonymouschatmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
+                            hydratedFooterText: `ZIM BOT INC`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/-qgrOvpZqH8'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3064,12 +3064,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
+                            hydratedFooterText: `ZIM BOT INC`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/-qgrOvpZqH8'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3101,12 +3101,12 @@ break
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
+                            hydratedFooterText: `ZIM BOT INC`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/-qgrOvpZqH8'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3242,12 +3242,12 @@ break
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
+                            hydratedFooterText: `ZIM BOT INC`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/-qgrOvpZqH8'
                                 }
                             }, {
                                 quickReplyButton: {
