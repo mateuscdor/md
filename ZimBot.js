@@ -1,11 +1,11 @@
-//  [© 2022 Zim Bot Inc.] \\
+//༼༺⋋[© 2022 Zim Bot Inc.]⋌༻༽\\
 
 //~you can re-upload but tag my channel
 //or put my channel link in the description.
 //~you can recode or copy the codes but give
 //credit.
-//~Thank you to LORD , ME AND MY 
-//FAMILY.
+//~+27634090203
+//֎֎֎֎֎֎֎֎֎֎֎֎֎֎֎֎֎֎֎֎
 
 //[modules]\\
 require('./config')
@@ -3122,9 +3122,9 @@ break
 break
   case 'allmenu': {
   	anu = `
-  *All Menu*
+  *𝗔𝗟𝗟 𝗠𝗘𝗡𝗨*
   
-  ꪶ🌟Group Menu🌟ꫂ
+     🌟𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨🌟
   🔵 ${prefix}grouplink
   🔵 ${prefix}ephemeral [option]
   🔵 ${prefix}setgrouppp
@@ -3137,54 +3137,54 @@ break
   🔵 ${prefix}promote @user
   🔵 ${prefix}demote @user
   
-  ꪶ🌟Download Menu🌟ꫂ
-  🔵 ${prefix}tiktoknowm [url]
-  🔵 ${prefix}tiktokwm [url]
-  🔵 ${prefix}tiktokmp3 [url]
-  🔵 ${prefix}instagram [url]
-  🔵 ${prefix}ig2 [url]
-  🔵 ${prefix}igreels [url]
-  🔵 ${prefix}igtv [url]
-  🔵 ${prefix}twitter [url]
-  🔵 ${prefix}twittermp3 [url]
-  🔵 ${prefix}ytmp3 [url]
-  🔵 ${prefix}ytmp4 [url]
-  🔵 ${prefix}getmusic [query]
-  🔵 ${prefix}getvideo [query
+     🌟𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗠𝗘𝗡𝗨🌟
+  🌍 ${prefix}tiktoknowm [url]
+  🌍 ${prefix}tiktokwm [url]
+  🌍 ${prefix}tiktokmp3 [url]
+  🌍 ${prefix}instagram [url]
+  🌍 ${prefix}ig2 [url]
+  🌍 ${prefix}igreels [url]
+  🌍 ${prefix}igtv [url]
+  🌍 ${prefix}twitter [url]
+  🌍 ${prefix}twittermp3 [url]
+  🌍 ${prefix}ytmp3 [url]
+  🌍 ${prefix}ytmp4 [url]
+  🌍 ${prefix}getmusic [query]
+  🌍 ${prefix}getvideo [query
   
-  ꪶ🌟Search Menu🌟ꫂ
-  🔵 ${prefix}play [query]
-  🔵 ${prefix}yts [query]
-  🔵 ${prefix}google [query]
-  🔵 ${prefix}gimage [query]
-  🔵 ${prefix}pinterest [query]
-  🔵 ${prefix}wallpaper [query]
-  🔵 ${prefix}wikimedia [query]
-  🔵 ${prefix}ytsearch [query]
+     🌟𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗘𝗡𝗨🌟
+  💮 ${prefix}play [query]
+  💮 ${prefix}yts [query]
+  💮 ${prefix}google [query]
+  💮 ${prefix}gimage [query]
+  💮 ${prefix}pinterest [query]
+  💮 ${prefix}wallpaper [query]
+  💮 ${prefix}wikimedia [query]
+  💮 ${prefix}ytsearch [query]
   
-  ꪶ🌟Random Menu🌟ꫂ
-  🔵 ${prefix}coffee
-  🔵 ${prefix}couplepp
+     🌟𝗥𝗔𝗡𝗗𝗢𝗠 𝗠𝗘𝗡𝗨🌟
+  🧱 ${prefix}coffee
+  🧱 ${prefix}couplepp
   
-  ꪶ🌟Fun Menu🌟ꫂ
-  🔵 ${prefix}couple
-  🔵 ${prefix}mysoulmate
-  🔵 ${prefix}math [mode]  
+     🌟𝗙𝗨𝗡 𝗠𝗘𝗡𝗨🌟
+  🪟 ${prefix}couple
+  🪟 ${prefix}mysoulmate
+  🪟 ${prefix}math [mode]  
   
-  ꪶ🌟Voice Changer Menu🌟ꫂ
-  🔵 ${prefix}bass
-  🔵 ${prefix}blown
-  🔵 ${prefix}deep
-  🔵 ${prefix}earrape
-  🔵 ${prefix}fast
-  🔵 ${prefix}fat
-  🔵 ${prefix}nightcore
-  🔵 ${prefix}reverse
-  🔵 ${prefix}robot
-  🔵 ${prefix}slow
-  🔵 ${prefix}squirrel
+    🌟𝗩𝗢𝗜𝗖𝗘 𝗠𝗘𝗡𝗨🌟
+  🪞 ${prefix}bass
+  🪞 ${prefix}blown
+  🪞 ${prefix}deep
+  🪞 ${prefix}earrape
+  🪞 ${prefix}fast
+  🪞 ${prefix}fat
+  🪞 ${prefix}nightcore
+  🪞 ${prefix}reverse
+  🪞 ${prefix}robot
+  🪞 ${prefix}slow
+  🪞 ${prefix}squirrel
    
-  ꪶ🌟Convert Menu🌟ꫂ
+     🌟𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗠𝗘𝗡𝗨🌟
   🔵 ${prefix}toimage
   🔵 ${prefix}removebg
   🔵 ${prefix}sticker
@@ -3195,48 +3195,48 @@ break
   🔵 ${prefix}ebinary
   🔵 ${prefix}dbinary
   
-  ꪶ🌟Misc Menu🌟ꫂ
-  🔵 ${prefix}ping
-  🔵 ${prefix}owner
-  🔵 ${prefix}donate
-  🔵 ${prefix}menu / ${prefix}help / ${prefix}?
-  🔵 ${prefix}delete
-  🔵 ${prefix}chatinfo
-  🔵 ${prefix}quoted
-  🔵 ${prefix}listpc
-  🔵 ${prefix}listgc
-  🔵 ${prefix}listonline
-  🔵 ${prefix}report (report bug to owner)
+     🌟𝗠𝗜𝗦𝗖 𝗠𝗘𝗡𝗨🌟
+  🪐 ${prefix}ping
+  🪐 ${prefix}owner
+  🪐 ${prefix}donate
+  🪐 ${prefix}menu / ${prefix}help / ${prefix}?
+  🪐 ${prefix}delete
+  🪐 ${prefix}chatinfo
+  🪐 ${prefix}quoted
+  🪐 ${prefix}listpc
+  🪐 ${prefix}listgc
+  🪐 ${prefix}listonline
+  🪐 ${prefix}report (report bug to owner)
   
-  ꪶ🌟Database Menu🌟ꫂ
-  🔵 ${prefix}setcmd
-  🔵 ${prefix}listcmd
-  🔵 ${prefix}delcmd
-  🔵 ${prefix}lockcmd
-  🔵 ${prefix}addmsg
-  🔵 ${prefix}listmsg
-  🔵 ${prefix}getmsg
-  🔵 ${prefix}delmsg
+    🌟𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗠𝗘𝗡𝗨🌟
+  🗂️ ${prefix}setcmd
+  🗂️ ${prefix}listcmd
+  🗂️ ${prefix}delcmd
+  🗂️ ${prefix}lockcmd
+  🗂️ ${prefix}addmsg
+  🗂️ ${prefix}listmsg
+  🗂️ ${prefix}getmsg
+  🗂️ ${prefix}delmsg
   
-  ꪶ🌟Anonymous Menu🌟ꫂ
-  🔵 ${prefix}start ( Start Chat )
-  🔵 ${prefix}next ( Next user )
-  🔵 ${prefix}stop ( stop Anonymous chat )
+    🌟𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗖𝗛𝗔𝗧🌟
+  🔲 ${prefix}start ( Start Chat )
+  🔲 ${prefix}next ( Next user )
+  🔲 ${prefix}stop ( stop Anonymous chat )
   
-  ꪶ🌟System Menu🌟ꫂ
-  🔵 ${prefix}antilink On/Off
-  🔵 ${prefix}mute On/Off
-  🔵 ${prefix}antiwame On/Off
+    🌟𝗦𝗬𝗦𝗧𝗘𝗠 𝗠𝗘𝗡𝗨🌟
+  ⚙️ ${prefix}antilink On/Off
+  ⚙️ ${prefix}mute On/Off
+  ⚙️ ${prefix}antiwame On/Off
   
-  ꪶ🌟Owner Menu🌟ꫂ
-  🔵 ${prefix}chat [option]
-  🔵 ${prefix}join [link]
-  🔵 ${prefix}leave
-  🔵 ${prefix}setbotpp
-  🔵 ${prefix}block @user
-  🔵 ${prefix}unblock @user
-  🔵 ${prefix}bcgroup
-  🔵 ${prefix}bcall`
+    🌟𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨🌟
+  🎀 ${prefix}chat [option]
+  🎀 ${prefix}join [link]
+  🎀 ${prefix}leave
+  🎀 ${prefix}setbotpp
+  🎀 ${prefix}block @user
+  🎀 ${prefix}unblock @user
+  🎀 ${prefix}bcgroup
+  🎀 ${prefix}bcall`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -3262,11 +3262,9 @@ break
             }
 break
 case 'tqtt': 
-reply(`Thanks to
-LORD BUDDHA
-Xeon (Me)
-My family
-And all friends who helped assemble this sexy script !!!`)
+reply(`Thanks for choosing ZIM BOT INC
+subscribe to my YouTube channel DRIPS OFC
+`)
 break
             default:
                 if (budy.startsWith('=>')) {
