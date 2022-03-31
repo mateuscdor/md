@@ -878,7 +878,7 @@ try{
   } catch {
  var pic = 'https://i.ibb.co/Tq7d7TZ/age-hananta-495-photo.png'
   }
-let ingfo = `*G R O U P  I N F O*\n\n*Name :* ${groupName}\n*ID Group :* ${m.chat}\n*Made :* ${moment(`${groupMetadata.creation}` * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n*Group Owner:* @${groupMetadata.owner.split('@')[0]}\n*Number Of Admins :* ${groupAdmins.length}\n*Number Of Participants :* ${participants.length}\n*Desc :* \n${groupMetadata.desc}`
+let ingfo = `*𝗚𝗥𝗢𝗨𝗣 𝗜𝗡𝗙𝗢*\n\n*𝗡𝗔𝗠𝗘 :* ${groupName}\n*𝗜𝗗 𝗚𝗥𝗢𝗨𝗣:* ${m.chat}\n*𝗠𝗔𝗗𝗘 :* ${moment(`${groupMetadata.creation}` * 1000).tz('Africa/Harare').format('DD/MM/YYYY HH:mm:ss')}\n*𝗚𝗥𝗢𝗨𝗣 𝗢𝗪𝗡𝗘𝗥:* @${groupMetadata.owner.split('@')[0]}\n*𝗔𝗗𝗠𝗜𝗡𝗦 :* ${groupAdmins.length}\n*𝗠𝗘𝗠𝗕𝗘𝗥𝗦 :* ${participants.length}\n*𝗗𝗘𝗦𝗖 :* \n${groupMetadata.desc}`
 ds = await getBuffer(pic)
 ZimBotInc.sendMessage(m.chat, { image: ds,caption: ingfo, mentions: [groupMetadata.owner] }, { quoted: m})
 break
@@ -1501,8 +1501,8 @@ case 'antilink':
                 let buttonMessage = {
                     image: { url: images },
                     caption: `*𝗚𝗢𝗢𝗚𝗟𝗘 𝗜𝗠𝗔𝗚𝗘*
-🤠 *Query* : ${text}
-🔗 *Media Url* : ${images}`,
+💫 *𝗤𝗨𝗘𝗥𝗬* : ${text}
+🔗 *𝗠𝗘𝗗𝗜𝗔 𝗨𝗥𝗟* : ${images}`,
                     footer: ZimBotInc.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2363,7 +2363,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
             case 'owner': case 'creator': {
             ZimBotInc.sendContact(m.chat, global.pemilik, m)
-           const devsound = fs.readFileSync('./XeonMedia/botdev.mp3') //u can change the music in XeonMedia folder
+           const devsound = fs.readFileSync('./Zimbot/botdev.mp3') //u can change the music in Zimbot folder
            ZimBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
             }
             break
@@ -2387,7 +2387,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imX-Wrt3s'
+                                    url: 'https://youtu.be/QU9ffSMTLoY'
                                 }
                             }, {
                             	urlButton: {
@@ -2428,44 +2428,48 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./Zimbot/drips.jpg')},
                             hydratedFooterText: `𝗛𝗶 😌 ${pushname}
-How Are You? 😊
+ 𝘎𝘙𝘌𝘌𝘛𝘐𝘕𝘎𝘚 𝘞𝘈𝘎𝘞𝘈𝘈𝘕💪
+ 
+╭──────[𝗭𝗜𝗠𝗕𝗢𝗧 𝗠𝗘𝗡𝗨]
+│💎𝗦𝗣𝗘𝗘𝗗 : ${latensie.toFixed(4)} 𝗦𝗘𝗖𝗢𝗡𝗗𝗦
+│
+│💎𝗥𝗨𝗡𝗧𝗜𝗠𝗘 : ${runtime(process.uptime())}
+│
+│💎𝗕𝗢𝗧 𝗡𝗔𝗠𝗘 : ${global.botnma}
+│
+│💎𝗢𝗪𝗡𝗘𝗥 𝗡𝗔𝗠𝗘 : ${global.ownernma}
+┃
+┃💎𝗢𝗪𝗡𝗘𝗥 𝗡𝗨𝗠𝗕𝗘𝗥 : ${global.owner}
+┃
+┃💎𝗛𝗢𝗦𝗧 𝗡𝗔𝗠𝗘 : ${os.hostname()}
+┃
+┃💎𝗣𝗟𝗔𝗧𝗙𝗢𝗥𝗠 : ${os.platform()}
+╰──────────────────────
 
-༼༺ 𝗭𝗜𝗠 𝗕𝗢𝗧 𝗣𝗥𝗘𝗦𝗘𝗡𝗧𝗦 ༻༽
-
-𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botnma}
-𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownernma}
-𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
-𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-
-
-Please Select Button Below
 `,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imF-Wrt3s'
+                                    displayText: 'SUBSCRIBE',
+                                    url: 'https://youtu.be/QU9ffSMTLoY'
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Script',
+                                displayText: 'GITHUB',
                                     url: 'https://github.com/zim-bot/tuna-bot'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'All Menu',
+                                    displayText: 'MENU',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'List Menu',
+                                    displayText: 'LIST',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner',
+                                    displayText: 'OWNER',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2577,7 +2581,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Credit",
 								"rows": [
 									{
-										"title": "Thanks To",
+										"title": "ZIM BOT CREDITS",
 										"description": "Zim-Bot Credits !!",
 										"rowId": `${prefix}tqtt`
 									}
@@ -2616,7 +2620,7 @@ case 'grupmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imX-Wrt3s'
+                                    url: 'https://youtu.be/QU9ffSMTLoY'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2658,7 +2662,7 @@ case 'downloadmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imFIWrt3s'
+                                    url: 'https://youtu.be/QU9ffSMTLoY'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2695,7 +2699,7 @@ case 'downloadmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/im-Wrt3s'
+                                    url: 'https://youtu.be/QU9ffSMTLoY'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2726,7 +2730,7 @@ case 'randommenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/im-Wrt3s'
+                                    url: 'https://youtu.be/QU9ffSMTLoY'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2758,7 +2762,7 @@ case 'funmenu': {
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imX-Wrt3s'
+                                    url: 'https://youtu.be/QU9ffSMTLoY'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2798,7 +2802,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Subscribe',
-                                    url: 'https://youtu.be/imFWrt3s'
+                                    url: 'https://youtu.be/QU9ffSMTLoY'
                                 }
                             }, {
                                 quickReplyButton: {
