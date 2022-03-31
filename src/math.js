@@ -1,11 +1,11 @@
-//═══════[© 2022 Xeon Bot Inc.]════════\\
+//༼༺⋋[© 2022 𝗭𝗶𝗺 Bot Inc.]⋌༻༽\\
 
 //~you can re-upload but tag my channel
 //or put my channel link in the description.
 //~you can recode or copy the codes but give
 //credit.
-//~Thank you to LORD BUDDHA, ME AND MY 
-//FAMILY.
+//~+27634090203
+//֍֍֍֍֍֍֍֍֍֍֍֍֍֍֍֍࿙࿙࿙
 
 //═══════[codes]════════\\
 let modes = {
